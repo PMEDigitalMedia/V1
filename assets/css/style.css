@@ -6938,3 +6938,16 @@ b,sup,sub,u,del {
   .call-icon {
     color: black;
 }
+/* Add your custom CSS styles here */
+        /* Smaller headings for mobile devices */
+        @media (max-width: 768px) {
+            h2 {
+                font-size: 20px !important; /* Adjust the font size as needed */
+            }
+            h3 {
+                font-size: 18px !important; /* Adjust the font size as needed */
+            }
+            h4 {
+                font-size: 18px !important; /* Adjust the font size as needed */
+            }
+        }
